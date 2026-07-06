@@ -1,0 +1,883 @@
+{
+  "users": [
+    {
+      "id": "30606e22-34d1-4bf6-9eec-a18b4358b0e7",
+      "name": "Kartik Mehtani",
+      "email": "sachin@gmail.com",
+      "passwordHash": "15e2b0d3c33891ebb0f1ef609ec419420c20e320ce94c65fbc8c3312448eb225",
+      "state": {
+        "lastParsedResume": "\n\nChaitanya Jhindal\nB.Tech — Computer Science & Engineering — 2027\n8769140658 — chaitanya.jhindal.23cse@bmu.edu.in — LinkedIn — GitHub\nPortfolio:  Portfolio — Engineering Playbook — Change Blueprint\nEducation\nB.Tech, Computer Science  Engineering2023 – 2027\nCGPA: 7.8/ 10\n12th / Higher SecondaryCBSE\nStream SciencePercentage 82%\n10th / Higher SecondaryCBSE\nPercentage 91%\nSkills\nProgramming Languages:  JavaScript , TypeScript , Python , Java , c++\nFrameworks & Libraries:  LangChain , LangGraph , ReactJS , NextJS , Express , Node.js , Prisma\nDatabases & Tools:  MySQL, MongoDB, Git, Docker, Neo4j , chromaDB\nConcepts:  OOP, REST APIs, Agile Development, System Design\nProjects\nAI Hospital Resource Management SystemNov 2025 — GitHub\nTech:  Python, RandomForest, Fuzzy Logic, A* Search, CSP, Groq API, Streamlit\n•  Developed AI hospital system processing 500+ records, achieving 89% severity classification accuracy\n•  Implemented A* bed allocation and CSP scheduling, reducing conflicts by 35% with LLM summaries\nFloatChat – Ocean Data Analysis SystemSep 2025 — Demo\nTech:  Python, Groq API, Streamlit, Folium, Plotly, Pandas , Argopy\n•  Developed AI-driven oceanographic analytics platform with NLP-powered geospatial dashboards\n•  Processed 100K+ oceanographic records, reducing analysis time by 50%\nMultimodal Offline RAG ChatbotOct 2025 —— Demo\nTech:  Python, LangChain, ChromaDB, Ollama, Whisper, YOLOv8, OCR\n•  Engineered multimodal RAG chatbot enabling semantic search across text, image, audio\n•  Improved retrieval relevance by 30% with optimized vector database and local LLM\nInternship / Training\nTechBrawn IT Solutions Machine Learning Engineer InternMay 2024 - Jul 2024\n•  Built XGBoost sales forecasting model on 100K+ SAP ERP records\n•  Integrated LLM-based NLP, reducing reporting time by 35%\nInstitute of Innovation  Entrepreneurship (I2E), BMU TraineeSept 2025 - Present\n•  Scraped startup datasets and built investor database for deep-tech fit analysis\n•  Conducted deep-tech market research and competitive benchmarking studies\nAchievements & Responsibilities\n•  SIH’23 Runner-Up – Top 2 among 40+ teams\n•  Student Lead, FAST Lab – Onboarded 10+ MSMEs and led cross-functional student teams to deliver\nstrategic solutions for live enterprise challenges",
+        "scoreHistory": [
+          {
+            "id": "1778488212550-698483",
+            "timestamp": "2026-05-11T08:30:12.550Z",
+            "source": "voice",
+            "answer": "दोबारा हेलो।",
+            "difficultyLevel": 3,
+            "difficultyLabel": "medium",
+            "clarity": 1,
+            "correctness": 1,
+            "depth": 1,
+            "communication": 1,
+            "feedback": "The answer is not relevant to the question.",
+            "overall": 1
+          }
+        ],
+        "currentDifficultyLevel": 1,
+        "latestGapAnalysis": {
+          "matchScore": 8,
+          "summary": "Strong AI and programming skills, but lacking in specific AI engineering experience",
+          "missingSkills": [
+            "AI model deployment",
+            "Cloud computing",
+            "Containerization"
+          ],
+          "weakAreas": [
+            "Limited experience with AI engineering frameworks",
+            "No mention of working with large-scale AI systems",
+            "Lack of experience with DevOps tools"
+          ],
+          "improvementSuggestions": [
+            "Take online courses in AI engineering and deployment",
+            "Participate in AI-related projects and hackathons",
+            "Learn cloud computing platforms such as AWS or GCP"
+          ],
+          "resumeBulletSuggestions": [
+            "Developed and deployed AI models using Python and TensorFlow",
+            "Designed and implemented AI-powered systems with scalability and reliability",
+            "Collaborated with cross-functional teams to deliver AI-driven solutions"
+          ]
+        },
+        "codingRoundState": {
+          "id": "1778488245385-979154",
+          "startedAt": 1778488245385,
+          "durationMinutes": 45,
+          "deadlineAt": 1778490945385,
+          "problem": {
+            "title": "Predicting Hospital Resource Utilization",
+            "difficulty": "Easy",
+            "problem": "Given a list of patient records with their respective resource utilization, predict the total resource utilization for a new set of patients.",
+            "constraints": [
+              "Patient records are represented as dictionaries with 'id', 'age', 'severity', and 'resource_utilization' keys.",
+              "The new set of patients is represented as a list of dictionaries with 'id', 'age', and 'severity' keys.",
+              "The prediction should be based on the average resource utilization of patients with similar severity levels."
+            ],
+            "functionSignature": "predict_resource_utilization(patient_records, new_patients)",
+            "examples": [
+              "Example 1: patient_records = [{'id': 1, 'age': 25, 'severity': 'low', 'resource_utilization': 10}, {'id': 2, 'age': 30, 'severity': 'medium', 'resource_utilization': 20}], new_patients = [{'id': 3, 'age': 25, 'severity': 'low'}, {'id': 4, 'age': 30, 'severity': 'medium'}]"
+            ],
+            "testCases": [
+              {
+                "input": "[object Object]",
+                "expected": "30"
+              },
+              {
+                "input": "[object Object]",
+                "expected": "60"
+              },
+              {
+                "input": "[object Object]",
+                "expected": "30"
+              },
+              {
+                "input": "[object Object]",
+                "expected": "30"
+              }
+            ],
+            "hints": [
+              "Calculate the average resource utilization for each severity level in the patient records.",
+              "Use the average resource utilization for each severity level to predict the total resource utilization for the new set of patients."
+            ]
+          },
+          "submission": null
+        },
+        "companyRoundState": {
+          "id": "1778488329548-951178",
+          "company": "Amazon",
+          "round": {
+            "company": "Amazon",
+            "roundTitle": "AI Engineer Screening Round",
+            "behavior": {
+              "question": "Tell me about a project where you had to work with a team to deliver a complex AI solution. What was your role, and how did you handle any challenges that arose?",
+              "whatToAssess": [
+                "Teamwork and collaboration",
+                "Problem-solving and adaptability",
+                "Communication and leadership skills"
+              ]
+            },
+            "coding": {
+              "question": "Given a list of integers, write a function to find the maximum sum of a contiguous subarray within the list.",
+              "testCases": [
+                {
+                  "input": "[-2, 1, -3, 4, -1, 2, 1, -5, 4]",
+                  "expected": "6"
+                },
+                {
+                  "input": "[1, 2, 3, 4, 5]",
+                  "expected": "15"
+                },
+                {
+                  "input": "[-1, -2, -3, -4, -5]",
+                  "expected": "-1"
+                }
+              ]
+            },
+            "systemDesign": {
+              "question": "Design a high-level architecture for a chatbot that can handle multiple conversations simultaneously, using a combination of natural language processing (NLP) and machine learning (ML) techniques.",
+              "focusAreas": [
+                "Scalability and concurrency",
+                "NLP and ML integration",
+                "Data storage and retrieval"
+              ]
+            },
+            "tips": [
+              "Be prepared to explain your thought process and design decisions",
+              "Focus on simplicity, scalability, and maintainability",
+              "Use examples from your past experiences to illustrate your points"
+            ]
+          },
+          "history": []
+        },
+        "conversation": [
+          {
+            "who": "You",
+            "text": "दोबारा हेलो।",
+            "timestamp": "2026-05-11T08:30:12.550Z"
+          },
+          {
+            "who": "Interviewer",
+            "text": "Let's get started with the interview. I see you have a strong background in AI and machine learning, with projects like the AI Hospital Resource Management System and the Multimodal Offline RAG Chatbot. \n\nCan you walk me through your approach to system design for a large-scale AI application, considering factors like scalability, reliability, and maintainability? How would you ensure that your design can handle a high volume of requests and data processing?",
+            "timestamp": "2026-05-11T08:30:12.550Z"
+          }
+        ],
+        "recommendations": {
+          "summary": "Strong foundation in AI and programming, but requires experience in AI engineering and deployment",
+          "priorityActions": [
+            "Take online courses in AI engineering and deployment",
+            "Participate in AI-related projects and hackathons to gain hands-on experience",
+            "Learn cloud computing platforms such as AWS or GCP"
+          ],
+          "practicePlan": [
+            "Practice deploying AI models using Python and TensorFlow",
+            "Work on projects that involve designing and implementing AI-powered systems with scalability and reliability",
+            "Collaborate with cross-functional teams to deliver AI-driven solutions"
+          ],
+          "resumeImprovements": [
+            "Add bullet points highlighting experience with AI model deployment and cloud computing",
+            "Emphasize skills in containerization and DevOps tools",
+            "Include projects that demonstrate experience with large-scale AI systems"
+          ],
+          "next7DaysPlan": [
+            "Research and enroll in an online course for AI engineering and deployment",
+            "Explore AI-related projects and hackathons to participate in",
+            "Set up a cloud computing platform such as AWS or GCP for practice"
+          ]
+        },
+        "lastSessionAt": "2026-05-11T08:30:12.550Z",
+        "savedResumes": [
+          {
+            "id": "1778488195876-903525",
+            "fileName": "chaitanya_jhindal_New_Resume_Third_year.pdf",
+            "uploadedAt": "2026-05-11T08:29:55.876Z",
+            "previewText": "\n\nChaitanya Jhindal\nB.Tech — Computer Science & Engineering — 2027\n8769140658 — chaitanya.jhindal.23cse@bmu.edu.in — LinkedIn — GitHub\nPortfolio:  Portfolio — Engineering Playbook — Change Blueprint\nEducation\nB.Tech, Computer Science  Engineering2023 – 2027\nCGPA: 7.8/ 10\n12th / Higher SecondaryCBSE\nStream SciencePercentage 82%\n10th / Higher SecondaryCBSE\nPercentage 91%\nSkills\nProgramming Languages:  JavaScript , TypeScript , Python , Java , c++\nFrameworks & Libraries:  LangChain , LangGraph , ReactJS , NextJS , Express , Node.js , Prisma\nDatabases & Tools:  MySQL, MongoDB, Git, Docker, Neo4j , chromaDB\nConcepts:  OOP, REST APIs, Agile Development, System Design\nProjects\nAI Hospital Resource Management SystemNov 2025 — GitHub\nTech:  Python, RandomForest, Fuzzy Logic, A* Search, CSP, Groq AP"
+          },
+          {
+            "id": "1778486213356-175907",
+            "fileName": "chaitanya_jhindal_New_Resume_Third_year.pdf",
+            "uploadedAt": "2026-05-11T07:56:53.356Z",
+            "previewText": "\n\nChaitanya Jhindal\nB.Tech — Computer Science & Engineering — 2027\n8769140658 — chaitanya.jhindal.23cse@bmu.edu.in — LinkedIn — GitHub\nPortfolio:  Portfolio — Engineering Playbook — Change Blueprint\nEducation\nB.Tech, Computer Science  Engineering2023 – 2027\nCGPA: 7.8/ 10\n12th / Higher SecondaryCBSE\nStream SciencePercentage 82%\n10th / Higher SecondaryCBSE\nPercentage 91%\nSkills\nProgramming Languages:  JavaScript , TypeScript , Python , Java , c++\nFrameworks & Libraries:  LangChain , LangGraph , ReactJS , NextJS , Express , Node.js , Prisma\nDatabases & Tools:  MySQL, MongoDB, Git, Docker, Neo4j , chromaDB\nConcepts:  OOP, REST APIs, Agile Development, System Design\nProjects\nAI Hospital Resource Management SystemNov 2025 — GitHub\nTech:  Python, RandomForest, Fuzzy Logic, A* Search, CSP, Groq AP"
+          },
+          {
+            "id": "1778049260205-701545",
+            "fileName": "Himanshu_resume.pdf",
+            "uploadedAt": "2026-05-06T06:34:20.205Z",
+            "previewText": "\n\n        HIMANSHU \nContact No.: +91 8107632776                                                                                                            \nMail Id: yadavhimanshu180704@gmail.com , himanshu.22cse@bmu.edu.in                              \nLinkedIn ID: https://www.linkedin.com/in/himanshu-yadav-8bb773293/ \nSUMMARY \nExcited to contribute to a dynamic and forward-thinking firm by utilizing technical abilities and a passion \nfor innovation. Seeks opportunities to apply skills in machine learning, data analysis, and software \ndevelopment while consistently gaining knowledge and developing in a cooperative team setting. Thrives \nin settings that value experimentation and creativity, fostering the growth of ideas into meaningful \nsolutions. \n \nPROGRAMMING LANGUAGES \n• C++  \n• Html  "
+          },
+          {
+            "id": "1778049119481-470311",
+            "fileName": "Himanshu_resume.pdf",
+            "uploadedAt": "2026-05-06T06:31:59.481Z",
+            "previewText": "\n\n        HIMANSHU \nContact No.: +91 8107632776                                                                                                            \nMail Id: yadavhimanshu180704@gmail.com , himanshu.22cse@bmu.edu.in                              \nLinkedIn ID: https://www.linkedin.com/in/himanshu-yadav-8bb773293/ \nSUMMARY \nExcited to contribute to a dynamic and forward-thinking firm by utilizing technical abilities and a passion \nfor innovation. Seeks opportunities to apply skills in machine learning, data analysis, and software \ndevelopment while consistently gaining knowledge and developing in a cooperative team setting. Thrives \nin settings that value experimentation and creativity, fostering the growth of ideas into meaningful \nsolutions. \n \nPROGRAMMING LANGUAGES \n• C++  \n• Html  "
+          },
+          {
+            "id": "1778049083591-663275",
+            "fileName": "Himanshu_resume.pdf",
+            "uploadedAt": "2026-05-06T06:31:23.591Z",
+            "previewText": "\n\n        HIMANSHU \nContact No.: +91 8107632776                                                                                                            \nMail Id: yadavhimanshu180704@gmail.com , himanshu.22cse@bmu.edu.in                              \nLinkedIn ID: https://www.linkedin.com/in/himanshu-yadav-8bb773293/ \nSUMMARY \nExcited to contribute to a dynamic and forward-thinking firm by utilizing technical abilities and a passion \nfor innovation. Seeks opportunities to apply skills in machine learning, data analysis, and software \ndevelopment while consistently gaining knowledge and developing in a cooperative team setting. Thrives \nin settings that value experimentation and creativity, fostering the growth of ideas into meaningful \nsolutions. \n \nPROGRAMMING LANGUAGES \n• C++  \n• Html  "
+          },
+          {
+            "id": "1778049065405-210263",
+            "fileName": "Himanshu_resume.pdf",
+            "uploadedAt": "2026-05-06T06:31:05.405Z",
+            "previewText": "\n\n        HIMANSHU \nContact No.: +91 8107632776                                                                                                            \nMail Id: yadavhimanshu180704@gmail.com , himanshu.22cse@bmu.edu.in                              \nLinkedIn ID: https://www.linkedin.com/in/himanshu-yadav-8bb773293/ \nSUMMARY \nExcited to contribute to a dynamic and forward-thinking firm by utilizing technical abilities and a passion \nfor innovation. Seeks opportunities to apply skills in machine learning, data analysis, and software \ndevelopment while consistently gaining knowledge and developing in a cooperative team setting. Thrives \nin settings that value experimentation and creativity, fostering the growth of ideas into meaningful \nsolutions. \n \nPROGRAMMING LANGUAGES \n• C++  \n• Html  "
+          },
+          {
+            "id": "1778049014318-723239",
+            "fileName": "Himanshu_resume.pdf",
+            "uploadedAt": "2026-05-06T06:30:14.318Z",
+            "previewText": "\n\n        HIMANSHU \nContact No.: +91 8107632776                                                                                                            \nMail Id: yadavhimanshu180704@gmail.com , himanshu.22cse@bmu.edu.in                              \nLinkedIn ID: https://www.linkedin.com/in/himanshu-yadav-8bb773293/ \nSUMMARY \nExcited to contribute to a dynamic and forward-thinking firm by utilizing technical abilities and a passion \nfor innovation. Seeks opportunities to apply skills in machine learning, data analysis, and software \ndevelopment while consistently gaining knowledge and developing in a cooperative team setting. Thrives \nin settings that value experimentation and creativity, fostering the growth of ideas into meaningful \nsolutions. \n \nPROGRAMMING LANGUAGES \n• C++  \n• Html  "
+          },
+          {
+            "id": "1777974438556-782998",
+            "fileName": "chaitanya_jhindal_New_Resume_Third_year.pdf",
+            "uploadedAt": "2026-05-05T09:47:18.556Z",
+            "previewText": "\n\nChaitanya Jhindal\nB.Tech — Computer Science & Engineering — 2027\n8769140658 — chaitanya.jhindal.23cse@bmu.edu.in — LinkedIn — GitHub\nPortfolio:  Portfolio — Engineering Playbook — Change Blueprint\nEducation\nB.Tech, Computer Science  Engineering2023 – 2027\nCGPA: 7.8/ 10\n12th / Higher SecondaryCBSE\nStream SciencePercentage 82%\n10th / Higher SecondaryCBSE\nPercentage 91%\nSkills\nProgramming Languages:  JavaScript , TypeScript , Python , Java , c++\nFrameworks & Libraries:  LangChain , LangGraph , ReactJS , NextJS , Express , Node.js , Prisma\nDatabases & Tools:  MySQL, MongoDB, Git, Docker, Neo4j , chromaDB\nConcepts:  OOP, REST APIs, Agile Development, System Design\nProjects\nAI Hospital Resource Management SystemNov 2025 — GitHub\nTech:  Python, RandomForest, Fuzzy Logic, A* Search, CSP, Groq AP"
+          },
+          {
+            "id": "1777972628751-218549",
+            "fileName": "chaitanya_jhindal_New_Resume_Third_year.pdf",
+            "uploadedAt": "2026-05-05T09:17:08.751Z",
+            "previewText": "\n\nChaitanya Jhindal\nB.Tech — Computer Science & Engineering — 2027\n8769140658 — chaitanya.jhindal.23cse@bmu.edu.in — LinkedIn — GitHub\nPortfolio:  Portfolio — Engineering Playbook — Change Blueprint\nEducation\nB.Tech, Computer Science  Engineering2023 – 2027\nCGPA: 7.8/ 10\n12th / Higher SecondaryCBSE\nStream SciencePercentage 82%\n10th / Higher SecondaryCBSE\nPercentage 91%\nSkills\nProgramming Languages:  JavaScript , TypeScript , Python , Java , c++\nFrameworks & Libraries:  LangChain , LangGraph , ReactJS , NextJS , Express , Node.js , Prisma\nDatabases & Tools:  MySQL, MongoDB, Git, Docker, Neo4j , chromaDB\nConcepts:  OOP, REST APIs, Agile Development, System Design\nProjects\nAI Hospital Resource Management SystemNov 2025 — GitHub\nTech:  Python, RandomForest, Fuzzy Logic, A* Search, CSP, Groq AP"
+          },
+          {
+            "id": "1777971661568-707463",
+            "fileName": "chaitanya_jhindal_New_Resume_Third_year.pdf",
+            "uploadedAt": "2026-05-05T09:01:01.568Z",
+            "previewText": "\n\nChaitanya Jhindal\nB.Tech — Computer Science & Engineering — 2027\n8769140658 — chaitanya.jhindal.23cse@bmu.edu.in — LinkedIn — GitHub\nPortfolio:  Portfolio — Engineering Playbook — Change Blueprint\nEducation\nB.Tech, Computer Science  Engineering2023 – 2027\nCGPA: 7.8/ 10\n12th / Higher SecondaryCBSE\nStream SciencePercentage 82%\n10th / Higher SecondaryCBSE\nPercentage 91%\nSkills\nProgramming Languages:  JavaScript , TypeScript , Python , Java , c++\nFrameworks & Libraries:  LangChain , LangGraph , ReactJS , NextJS , Express , Node.js , Prisma\nDatabases & Tools:  MySQL, MongoDB, Git, Docker, Neo4j , chromaDB\nConcepts:  OOP, REST APIs, Agile Development, System Design\nProjects\nAI Hospital Resource Management SystemNov 2025 — GitHub\nTech:  Python, RandomForest, Fuzzy Logic, A* Search, CSP, Groq AP"
+          }
+        ],
+        "jobDescription": "ai eng"
+      },
+      "createdAt": "2026-05-04T12:48:57.462Z"
+    },
+    {
+      "id": "2690936c-715b-4f51-88a4-dec654ecf1c5",
+      "name": "shresht",
+      "email": "shreshtmall304@gmail.com",
+      "passwordHash": "b0d4b3960648978fd5d571ae300bf01e3dad3810a40a05ccc9f5e6fc735e6040",
+      "state": {
+        "lastParsedResume": "\n\nChaitanya Jhindal\nB.Tech — Computer Science & Engineering — 2027\n8769140658 — chaitanya.jhindal.23cse@bmu.edu.in — LinkedIn — GitHub\nPortfolio:  Portfolio — Engineering Playbook — Change Blueprint\nEducation\nB.Tech, Computer Science  Engineering2023 – 2027\nCGPA: 7.8/ 10\n12th / Higher SecondaryCBSE\nStream SciencePercentage 82%\n10th / Higher SecondaryCBSE\nPercentage 91%\nSkills\nProgramming Languages:  JavaScript , TypeScript , Python , Java , c++\nFrameworks & Libraries:  LangChain , LangGraph , ReactJS , NextJS , Express , Node.js , Prisma\nDatabases & Tools:  MySQL, MongoDB, Git, Docker, Neo4j , chromaDB\nConcepts:  OOP, REST APIs, Agile Development, System Design\nProjects\nAI Hospital Resource Management SystemNov 2025 — GitHub\nTech:  Python, RandomForest, Fuzzy Logic, A* Search, CSP, Groq API, Streamlit\n•  Developed AI hospital system processing 500+ records, achieving 89% severity classification accuracy\n•  Implemented A* bed allocation and CSP scheduling, reducing conflicts by 35% with LLM summaries\nFloatChat – Ocean Data Analysis SystemSep 2025 — Demo\nTech:  Python, Groq API, Streamlit, Folium, Plotly, Pandas , Argopy\n•  Developed AI-driven oceanographic analytics platform with NLP-powered geospatial dashboards\n•  Processed 100K+ oceanographic records, reducing analysis time by 50%\nMultimodal Offline RAG ChatbotOct 2025 —— Demo\nTech:  Python, LangChain, ChromaDB, Ollama, Whisper, YOLOv8, OCR\n•  Engineered multimodal RAG chatbot enabling semantic search across text, image, audio\n•  Improved retrieval relevance by 30% with optimized vector database and local LLM\nInternship / Training\nTechBrawn IT Solutions Machine Learning Engineer InternMay 2024 - Jul 2024\n•  Built XGBoost sales forecasting model on 100K+ SAP ERP records\n•  Integrated LLM-based NLP, reducing reporting time by 35%\nInstitute of Innovation  Entrepreneurship (I2E), BMU TraineeSept 2025 - Present\n•  Scraped startup datasets and built investor database for deep-tech fit analysis\n•  Conducted deep-tech market research and competitive benchmarking studies\nAchievements & Responsibilities\n•  SIH’23 Runner-Up – Top 2 among 40+ teams\n•  Student Lead, FAST Lab – Onboarded 10+ MSMEs and led cross-functional student teams to deliver\nstrategic solutions for live enterprise challenges",
+        "scoreHistory": [
+          {
+            "id": "1777960036201-488155",
+            "timestamp": "2026-05-05T05:47:16.201Z",
+            "source": "voice",
+            "answer": "Hello",
+            "difficultyLevel": 3,
+            "difficultyLabel": "medium",
+            "clarity": 1,
+            "correctness": 1,
+            "depth": 1,
+            "communication": 1,
+            "feedback": "The answer does not address the question.",
+            "overall": 1
+          }
+        ],
+        "currentDifficultyLevel": 1,
+        "latestGapAnalysis": {
+          "matchScore": 8,
+          "summary": "Strong AI and programming skills, but lacking specific AI engineering experience",
+          "missingSkills": [
+            "AI model deployment",
+            "Cloud computing",
+            "Containerization"
+          ],
+          "weakAreas": [
+            "Limited experience with AI engineering frameworks",
+            "No mention of working with large-scale AI systems",
+            "Lack of experience with DevOps tools"
+          ],
+          "improvementSuggestions": [
+            "Take online courses on AI engineering and deployment",
+            "Participate in hackathons or competitions to work on large-scale AI projects",
+            "Learn about containerization and cloud computing"
+          ],
+          "resumeBulletSuggestions": [
+            "Developed and deployed AI models using Python and TensorFlow",
+            "Designed and implemented AI-powered systems with scalability and reliability",
+            "Collaborated with cross-functional teams to deliver AI-driven solutions"
+          ]
+        },
+        "codingRoundState": {
+          "id": "1777960095373-505420",
+          "startedAt": 1777960095373,
+          "durationMinutes": 35,
+          "deadlineAt": 1777962195373,
+          "problem": {
+            "title": "AI Engineer: Predicting Hospital Resource Allocation",
+            "difficulty": "Easy",
+            "problem": "Create a function that takes in the number of available hospital beds, the number of patients waiting for a bed, and the average recovery time of patients. The function should return the predicted number of beds that will be available after the average recovery time.",
+            "constraints": [
+              "The number of available hospital beds is always greater than or equal to 0.",
+              "The number of patients waiting for a bed is always greater than or equal to 0.",
+              "The average recovery time of patients is always greater than 0."
+            ],
+            "functionSignature": "predict_bed_availability(available_beds: int, waiting_patients: int, average_recovery_time: int) -> int",
+            "examples": [
+              "predict_bed_availability(10, 5, 3) -> 8",
+              "predict_bed_availability(20, 10, 5) -> 15"
+            ],
+            "testCases": [
+              {
+                "input": "[object Object]",
+                "expected": "8"
+              },
+              {
+                "input": "[object Object]",
+                "expected": "15"
+              },
+              {
+                "input": "[object Object]",
+                "expected": "5"
+              },
+              {
+                "input": "[object Object]",
+                "expected": "11"
+              }
+            ],
+            "hints": [
+              "Assume that patients are allocated beds immediately.",
+              "Assume that patients recover and vacate their beds after the average recovery time.",
+              "Use simple arithmetic to calculate the predicted number of available beds."
+            ]
+          },
+          "submission": null
+        },
+        "companyRoundState": {
+          "id": "1777960118540-97429",
+          "company": "TCS",
+          "round": {
+            "company": "TCS",
+            "roundTitle": "AI Engineer Interview",
+            "behavior": {
+              "question": "Tell us about a project where you had to work with a team to deliver a complex AI solution. What was your role, and how did you handle any challenges that arose?",
+              "whatToAssess": [
+                "Teamwork and collaboration",
+                "Problem-solving and adaptability",
+                "Communication and leadership skills"
+              ]
+            },
+            "coding": {
+              "question": "Write a Python function to predict the severity of a disease based on a given set of symptoms. Use a simple machine learning model and provide example test cases.",
+              "testCases": [
+                {
+                  "input": "['headache', 'fever', 'cough']",
+                  "expected": "Mild"
+                },
+                {
+                  "input": "['chest_pain', 'shortness_of_breath', 'fatigue']",
+                  "expected": "Severe"
+                },
+                {
+                  "input": "['sore_throat', 'runny_nose', 'body_ache']",
+                  "expected": "Moderate"
+                }
+              ]
+            },
+            "systemDesign": {
+              "question": "Design a high-level architecture for an AI-powered hospital resource management system. Consider factors such as data storage, patient data privacy, and scalability.",
+              "focusAreas": [
+                "Data storage and management",
+                "Security and privacy",
+                "Scalability and performance"
+              ]
+            },
+            "tips": [
+              "Be prepared to explain your thought process and design decisions",
+              "Focus on simplicity and clarity in your code and system design",
+              "Highlight your experience with AI and machine learning concepts and technologies"
+            ]
+          },
+          "history": []
+        },
+        "conversation": [
+          {
+            "who": "You",
+            "text": "Hello",
+            "timestamp": "2026-05-05T05:47:16.201Z"
+          },
+          {
+            "who": "Interviewer",
+            "text": "Hello Chaitanya, welcome to the interview for the AI Engineer position. I've reviewed your resume, and I'm impressed with the variety of projects you've worked on, particularly the AI Hospital Resource Management System and the Multimodal Offline RAG Chatbot.\n\nCan you start by telling me about your experience with Java, as it's one of the programming languages listed on your resume? How have you applied Java in your projects, and what do you think are its strengths and weaknesses in the context of AI engineering?",
+            "timestamp": "2026-05-05T05:47:16.201Z"
+          }
+        ],
+        "recommendations": {
+          "summary": "Strong foundation in AI and programming, but requires experience in AI engineering and deployment",
+          "priorityActions": [
+            "Take online courses on AI model deployment and cloud computing",
+            "Participate in hackathons or competitions to work on large-scale AI projects",
+            "Learn about containerization using Docker and Kubernetes"
+          ],
+          "practicePlan": [
+            "Practice deploying AI models using TensorFlow and PyTorch",
+            "Work on projects that involve cloud computing and containerization",
+            "Focus on designing and implementing scalable and reliable AI-powered systems"
+          ],
+          "resumeImprovements": [
+            "Add bullet points highlighting experience with AI model deployment and cloud computing",
+            "Emphasize collaboration with cross-functional teams to deliver AI-driven solutions",
+            "Include specific examples of working with large-scale AI systems and DevOps tools"
+          ],
+          "next7DaysPlan": [
+            "Spend 2 hours daily learning about AI model deployment and cloud computing",
+            "Work on a project that involves deploying an AI model using Python and TensorFlow",
+            "Research and create a list of DevOps tools and AI engineering frameworks to learn"
+          ]
+        },
+        "lastSessionAt": "2026-05-05T05:47:16.201Z",
+        "savedResumes": [
+          {
+            "id": "1777960010097-700086",
+            "fileName": "chaitanya_jhindal_New_Resume_Third_year.pdf",
+            "uploadedAt": "2026-05-05T05:46:50.097Z",
+            "previewText": "\n\nChaitanya Jhindal\nB.Tech — Computer Science & Engineering — 2027\n8769140658 — chaitanya.jhindal.23cse@bmu.edu.in — LinkedIn — GitHub\nPortfolio:  Portfolio — Engineering Playbook — Change Blueprint\nEducation\nB.Tech, Computer Science  Engineering2023 – 2027\nCGPA: 7.8/ 10\n12th / Higher SecondaryCBSE\nStream SciencePercentage 82%\n10th / Higher SecondaryCBSE\nPercentage 91%\nSkills\nProgramming Languages:  JavaScript , TypeScript , Python , Java , c++\nFrameworks & Libraries:  LangChain , LangGraph , ReactJS , NextJS , Express , Node.js , Prisma\nDatabases & Tools:  MySQL, MongoDB, Git, Docker, Neo4j , chromaDB\nConcepts:  OOP, REST APIs, Agile Development, System Design\nProjects\nAI Hospital Resource Management SystemNov 2025 — GitHub\nTech:  Python, RandomForest, Fuzzy Logic, A* Search, CSP, Groq AP"
+          }
+        ]
+      },
+      "createdAt": "2026-05-05T05:46:27.390Z"
+    },
+    {
+      "id": "3551ccb3-0d96-4603-a9b7-b4a96c16fcb9",
+      "name": "aakash",
+      "email": "aakash04@gmail.com",
+      "passwordHash": "5c80565db6f29da0b01aa12522c37b32f121cbe47a861ef7f006cb22922dffa1",
+      "state": {
+        "lastParsedResume": "\n\n        HIMANSHU \nContact No.: +91 8107632776                                                                                                            \nMail Id: yadavhimanshu180704@gmail.com , himanshu.22cse@bmu.edu.in                              \nLinkedIn ID: https://www.linkedin.com/in/himanshu-yadav-8bb773293/ \nSUMMARY \nExcited to contribute to a dynamic and forward-thinking firm by utilizing technical abilities and a passion \nfor innovation. Seeks opportunities to apply skills in machine learning, data analysis, and software \ndevelopment while consistently gaining knowledge and developing in a cooperative team setting. Thrives \nin settings that value experimentation and creativity, fostering the growth of ideas into meaningful \nsolutions. \n \nPROGRAMMING LANGUAGES \n• C++  \n• Html  \n• CSS  \n• Python \n• Java \n• SQL \nPROJECTS \n• PWM (Polar Width Modulation) Solar Charge Controller ARDUINO. \n• Steering Wheel Gaming Controller using ARDUINO UNO \n• To-Do List app project using Android Studio. \n• Spotify Clone using Web Programming. \n \nTECHNICAL SKILLS  \n➢ Software  \n• Android Studio  \n• Figma  \n➢ Operating Systems  \n• Linux  \n• Window \n \nACHIEVEMENTS \n• Made Breast Cancer Diagnosis using various Databases. \n• Made Diabetes Detection project using various Database.  \n \nPOSITIONS OF RESPONSIBILITY  \n• Made designs for posters, events etc. and organized events to enhance college fest design. \n• All time participation in College programs. \n\nADDITIONAL INFORMATION \n• Coursera MOOC Course Certificates on Canva and Figma. \n• Knowledge in R programming language for data analysis and statistical modelling. \n• Comfortable Languages \n➢ Hindi \n➢ English \n \nEDUCATION \n \n \nDegree Year School/University CGPA \nBachelor in Technology, \nComputer Science Engineering \n2022-2026 BML Munjal University 7.6 \n12\nth\n Board [CBSE] 2021 Modern Public School 80.8% \n10\nth\n Board [CBSE] 2019 Modern Public School 84.2% ",
+        "scoreHistory": [
+          {
+            "id": "1777970875055-24061",
+            "timestamp": "2026-05-05T08:47:55.055Z",
+            "source": "voice",
+            "answer": "Hello Sara",
+            "difficultyLevel": 3,
+            "difficultyLabel": "medium",
+            "clarity": 1,
+            "correctness": 1,
+            "depth": 1,
+            "communication": 1,
+            "feedback": "The candidate has not provided a relevant answer to the question.",
+            "overall": 1
+          },
+          {
+            "id": "1777970936726-365725",
+            "timestamp": "2026-05-05T08:48:56.726Z",
+            "source": "voice",
+            "answer": "Sorry, ma'am. The answer of these questions, sir. I haven't prepared much about for the interview, so I skipped these questions.",
+            "difficultyLevel": 1,
+            "difficultyLabel": "very easy",
+            "clarity": 2,
+            "correctness": 1,
+            "depth": 1,
+            "communication": 2,
+            "feedback": "The candidate failed to provide a meaningful answer.",
+            "overall": 1.5
+          }
+        ],
+        "currentDifficultyLevel": 1,
+        "latestGapAnalysis": {
+          "matchScore": 6,
+          "summary": "Candidate has a strong foundation in programming languages and software development, but lacks direct experience in software engineering",
+          "missingSkills": [
+            "Agile development methodologies",
+            "Cloud computing platforms",
+            "Containerization using Docker"
+          ],
+          "weakAreas": [
+            "Limited experience with collaborative development tools",
+            "No mention of testing frameworks or debugging techniques",
+            "Lack of experience with DevOps practices"
+          ],
+          "improvementSuggestions": [
+            "Take online courses in software engineering principles",
+            "Participate in open-source projects to gain collaborative experience",
+            "Learn about containerization and cloud computing"
+          ],
+          "resumeBulletSuggestions": [
+            "Developed multiple projects using ARDUINO and Android Studio, demonstrating proficiency in software development",
+            "Utilized programming languages such as C++, Python, and Java to build various applications",
+            "Designed and implemented a Spotify Clone using web programming, showcasing skills in front-end development"
+          ]
+        },
+        "codingRoundState": {
+          "id": "1777970966688-72276",
+          "startedAt": 1777970966688,
+          "durationMinutes": 35,
+          "deadlineAt": 1777973066688,
+          "problem": {
+            "title": "Array Element Parity",
+            "difficulty": "Easy",
+            "problem": "Given an array of integers, write a function that returns the count of elements that have even parity (i.e., the number of 1's in their binary representation is even).",
+            "constraints": [
+              "1 <= length of array <= 1000",
+              "-1000 <= each element in the array <= 1000"
+            ],
+            "functionSignature": "int countEvenParityElements(int[] arr)",
+            "examples": [
+              "Input: arr = [1, 2, 3, 4, 5] Output: 2",
+              "Input: arr = [2, 4, 6, 8] Output: 4"
+            ],
+            "testCases": [
+              {
+                "input": "[1, 2, 3, 4, 5]",
+                "expected": "2"
+              },
+              {
+                "input": "[2, 4, 6, 8]",
+                "expected": "4"
+              },
+              {
+                "input": "[1, 3, 5, 7]",
+                "expected": "0"
+              },
+              {
+                "input": "[10, 20, 30, 40]",
+                "expected": "4"
+              }
+            ],
+            "hints": [
+              "Use bitwise operations to count the number of 1's in the binary representation of each number.",
+              "Use a loop to iterate over each element in the array and count the elements with even parity."
+            ]
+          },
+          "submission": {
+            "submittedAt": 1777970975692,
+            "language": "javascript",
+            "isLate": false,
+            "solution": "oirhugjwro",
+            "evaluation": {
+              "score": 1,
+              "verdict": "Needs Improvement",
+              "passedCount": 0,
+              "totalCount": 4,
+              "testCaseResults": [
+                {
+                  "input": "[1, 2, 3, 4, 5]",
+                  "expected": "2",
+                  "status": "fail",
+                  "reason": "No solution provided"
+                },
+                {
+                  "input": "[2, 4, 6, 8]",
+                  "expected": "4",
+                  "status": "fail",
+                  "reason": "No solution provided"
+                },
+                {
+                  "input": "[1, 3, 5, 7]",
+                  "expected": "0",
+                  "status": "fail",
+                  "reason": "No solution provided"
+                },
+                {
+                  "input": "[10, 20, 30, 40]",
+                  "expected": "4",
+                  "status": "fail",
+                  "reason": "No solution provided"
+                }
+              ],
+              "timeComplexity": "N/A",
+              "spaceComplexity": "N/A",
+              "feedback": [
+                "No solution provided for the given problem.",
+                "Please provide a valid JavaScript function that solves the problem."
+              ],
+              "improvedApproach": "function countEvenParityElements(arr) { let count = 0; for (let num of arr) { let parity = 0; while (num) { parity += num & 1; num >>= 1; } if (parity % 2 === 0) count++; } return count; }"
+            }
+          }
+        },
+        "companyRoundState": {
+          "id": "1777970998351-936303",
+          "company": "Google",
+          "round": {
+            "company": "Google",
+            "roundTitle": "Introduction to Software Engineering",
+            "behavior": {
+              "question": "Tell me about a project where you had to work with a team to solve a complex problem. What was your role, and how did you handle any challenges that arose?",
+              "whatToAssess": [
+                "Teamwork and collaboration",
+                "Problem-solving skills",
+                "Communication and leadership"
+              ]
+            },
+            "coding": {
+              "question": "Write a function to reverse a linked list. The function should take the head of the list as input and return the head of the reversed list.",
+              "testCases": [
+                {
+                  "input": "1 -> 2 -> 3 -> 4 -> 5",
+                  "expected": "5 -> 4 -> 3 -> 2 -> 1"
+                },
+                {
+                  "input": "10 -> 20 -> 30",
+                  "expected": "30 -> 20 -> 10"
+                },
+                {
+                  "input": "5",
+                  "expected": "5"
+                }
+              ]
+            },
+            "systemDesign": {
+              "question": "Design a simple chat application that allows users to send and receive messages in real-time. What components would you use, and how would you handle scalability and security?",
+              "focusAreas": [
+                "System architecture and scalability",
+                "Real-time data processing and storage",
+                "Security and authentication"
+              ]
+            },
+            "tips": [
+              "Be prepared to explain your thought process and design decisions",
+              "Focus on simplicity and scalability in your system design",
+              "Practice coding and whiteboarding exercises to improve your problem-solving skills"
+            ]
+          },
+          "history": []
+        },
+        "conversation": [
+          {
+            "who": "You",
+            "text": "Hello Sara",
+            "timestamp": "2026-05-05T08:47:55.055Z"
+          },
+          {
+            "who": "Interviewer",
+            "text": "Hello Himanshu, nice to meet you. I'm Sara, and I'll be conducting your mock interview today for a software engineering position. \n\nI've reviewed your resume, and I see you have experience with various programming languages, including Java, Python, and C++. You also have some interesting projects, such as the PWM Solar Charge Controller and the Spotify Clone.\n\nLet's dive into some technical questions. Can you explain the difference between monolithic architecture and microservices architecture in software development? Which one do you think is more suitable for a large-scale application, and why?",
+            "timestamp": "2026-05-05T08:47:55.055Z"
+          },
+          {
+            "who": "You",
+            "text": "Sorry, ma'am. The answer of these questions, sir. I haven't prepared much about for the interview, so I skipped these questions.",
+            "timestamp": "2026-05-05T08:48:56.726Z"
+          },
+          {
+            "who": "Interviewer",
+            "text": "Let's start fresh. Since you haven't prepared much for the interview, I'll keep the questions simple. Can you tell me about a project you worked on that you're particularly proud of? What was your role in the project, and what technologies did you use?",
+            "timestamp": "2026-05-05T08:48:56.726Z"
+          }
+        ],
+        "recommendations": {
+          "summary": "Candidate has a strong foundation in programming languages and software development, but lacks direct experience in software engineering",
+          "priorityActions": [
+            "Take online courses in software engineering principles to fill knowledge gaps",
+            "Participate in open-source projects to gain collaborative experience",
+            "Learn about containerization using Docker and cloud computing platforms"
+          ],
+          "practicePlan": [
+            "Practice coding challenges on platforms like LeetCode or HackerRank to improve problem-solving skills",
+            "Develop a personal project using Agile development methodologies",
+            "Familiarize yourself with testing frameworks and debugging techniques"
+          ],
+          "resumeImprovements": [
+            "Add a section on collaborative development experience, including any open-source projects",
+            "Emphasize proficiency in programming languages and software development",
+            "Include specific examples of projects that demonstrate software engineering skills"
+          ],
+          "next7DaysPlan": [
+            "Spend 2 hours daily learning about software engineering principles and Agile development methodologies",
+            "Dedicate 1 day to exploring containerization using Docker and cloud computing platforms",
+            "Update resume with new skills and experiences, and practice answering common software engineering interview questions"
+          ]
+        },
+        "lastSessionAt": "2026-05-05T08:48:56.726Z",
+        "savedResumes": [
+          {
+            "id": "1777970804609-356540",
+            "fileName": "Himanshu_resume.pdf",
+            "uploadedAt": "2026-05-05T08:46:44.609Z",
+            "previewText": "\n\n        HIMANSHU \nContact No.: +91 8107632776                                                                                                            \nMail Id: yadavhimanshu180704@gmail.com , himanshu.22cse@bmu.edu.in                              \nLinkedIn ID: https://www.linkedin.com/in/himanshu-yadav-8bb773293/ \nSUMMARY \nExcited to contribute to a dynamic and forward-thinking firm by utilizing technical abilities and a passion \nfor innovation. Seeks opportunities to apply skills in machine learning, data analysis, and software \ndevelopment while consistently gaining knowledge and developing in a cooperative team setting. Thrives \nin settings that value experimentation and creativity, fostering the growth of ideas into meaningful \nsolutions. \n \nPROGRAMMING LANGUAGES \n• C++  \n• Html  "
+          },
+          {
+            "id": "1777970622742-589071",
+            "fileName": "chaitanya_jhindal_New_Resume_Third_year.pdf",
+            "uploadedAt": "2026-05-05T08:43:42.742Z",
+            "previewText": "\n\nChaitanya Jhindal\nB.Tech — Computer Science & Engineering — 2027\n8769140658 — chaitanya.jhindal.23cse@bmu.edu.in — LinkedIn — GitHub\nPortfolio:  Portfolio — Engineering Playbook — Change Blueprint\nEducation\nB.Tech, Computer Science  Engineering2023 – 2027\nCGPA: 7.8/ 10\n12th / Higher SecondaryCBSE\nStream SciencePercentage 82%\n10th / Higher SecondaryCBSE\nPercentage 91%\nSkills\nProgramming Languages:  JavaScript , TypeScript , Python , Java , c++\nFrameworks & Libraries:  LangChain , LangGraph , ReactJS , NextJS , Express , Node.js , Prisma\nDatabases & Tools:  MySQL, MongoDB, Git, Docker, Neo4j , chromaDB\nConcepts:  OOP, REST APIs, Agile Development, System Design\nProjects\nAI Hospital Resource Management SystemNov 2025 — GitHub\nTech:  Python, RandomForest, Fuzzy Logic, A* Search, CSP, Groq AP"
+          },
+          {
+            "id": "1777970614160-205893",
+            "fileName": "chaitanya_jhindal_New_Resume_Third_year.pdf",
+            "uploadedAt": "2026-05-05T08:43:34.160Z",
+            "previewText": "\n\nChaitanya Jhindal\nB.Tech — Computer Science & Engineering — 2027\n8769140658 — chaitanya.jhindal.23cse@bmu.edu.in — LinkedIn — GitHub\nPortfolio:  Portfolio — Engineering Playbook — Change Blueprint\nEducation\nB.Tech, Computer Science  Engineering2023 – 2027\nCGPA: 7.8/ 10\n12th / Higher SecondaryCBSE\nStream SciencePercentage 82%\n10th / Higher SecondaryCBSE\nPercentage 91%\nSkills\nProgramming Languages:  JavaScript , TypeScript , Python , Java , c++\nFrameworks & Libraries:  LangChain , LangGraph , ReactJS , NextJS , Express , Node.js , Prisma\nDatabases & Tools:  MySQL, MongoDB, Git, Docker, Neo4j , chromaDB\nConcepts:  OOP, REST APIs, Agile Development, System Design\nProjects\nAI Hospital Resource Management SystemNov 2025 — GitHub\nTech:  Python, RandomForest, Fuzzy Logic, A* Search, CSP, Groq AP"
+          }
+        ]
+      },
+      "createdAt": "2026-05-05T08:42:57.765Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "2dec905dc6dd44f74e48505d65cfc1246ca4a43366e3a251",
+      "userId": "30606e22-34d1-4bf6-9eec-a18b4358b0e7",
+      "createdAt": "2026-05-04T12:48:57.462Z"
+    },
+    {
+      "token": "28859632f32721c284198e4ae60ecb426310db1c53571a5c",
+      "userId": "30606e22-34d1-4bf6-9eec-a18b4358b0e7",
+      "createdAt": "2026-05-04T12:50:20.650Z"
+    },
+    {
+      "token": "1e08205f8675efde40a65365256df022529034fcf571a5d9",
+      "userId": "30606e22-34d1-4bf6-9eec-a18b4358b0e7",
+      "createdAt": "2026-05-04T13:03:06.823Z"
+    },
+    {
+      "token": "7b304fe723b61ddd2459588764c7713c33712e6f93ed252d",
+      "userId": "30606e22-34d1-4bf6-9eec-a18b4358b0e7",
+      "createdAt": "2026-05-04T13:03:32.140Z"
+    },
+    {
+      "token": "f129a6cfd13d715c9e56df81a945e5b6cbbb0496f4ca2231",
+      "userId": "30606e22-34d1-4bf6-9eec-a18b4358b0e7",
+      "createdAt": "2026-05-04T13:09:56.281Z"
+    },
+    {
+      "token": "cf8a422eab724b846071d4daecb58a44d0ce09f753f1805c",
+      "userId": "30606e22-34d1-4bf6-9eec-a18b4358b0e7",
+      "createdAt": "2026-05-04T13:27:53.996Z"
+    },
+    {
+      "token": "faad0d156ce2bbdcf3e65778a461a90786b17785b6d5fde8",
+      "userId": "30606e22-34d1-4bf6-9eec-a18b4358b0e7",
+      "createdAt": "2026-05-04T13:55:44.574Z"
+    },
+    {
+      "token": "b450914b13dff25ef270766b0c369eec42377dc0b139a417",
+      "userId": "30606e22-34d1-4bf6-9eec-a18b4358b0e7",
+      "createdAt": "2026-05-04T13:58:00.447Z"
+    },
+    {
+      "token": "c61a677d770596b4595665295b1967fb2b60626b60f2bdb4",
+      "userId": "30606e22-34d1-4bf6-9eec-a18b4358b0e7",
+      "createdAt": "2026-05-04T14:04:23.835Z"
+    },
+    {
+      "token": "96fd0a82caf98b3a36537b7dab31ba5f527f398412b3e19f",
+      "userId": "30606e22-34d1-4bf6-9eec-a18b4358b0e7",
+      "createdAt": "2026-05-04T15:01:32.681Z"
+    },
+    {
+      "token": "c8dfbcf5db49d0232c8c7af8420a3d7298903bead9deae0f",
+      "userId": "30606e22-34d1-4bf6-9eec-a18b4358b0e7",
+      "createdAt": "2026-05-04T15:04:53.523Z"
+    },
+    {
+      "token": "f4788017c8e65d54ce75d7112498defbca89e40e15cf6bb4",
+      "userId": "30606e22-34d1-4bf6-9eec-a18b4358b0e7",
+      "createdAt": "2026-05-04T15:55:25.872Z"
+    },
+    {
+      "token": "dbe6e0b7f247bda970eed7ec9c91324fcd9612e4c6491894",
+      "userId": "30606e22-34d1-4bf6-9eec-a18b4358b0e7",
+      "createdAt": "2026-05-04T17:43:31.269Z"
+    },
+    {
+      "token": "9e24d0a91316a7510e60e6f75d90dc2e0cbf15219dd47c4a",
+      "userId": "30606e22-34d1-4bf6-9eec-a18b4358b0e7",
+      "createdAt": "2026-05-04T17:47:49.711Z"
+    },
+    {
+      "token": "2cfa03363ea24427fea418eb59441879ea51eb8cab01c6bb",
+      "userId": "30606e22-34d1-4bf6-9eec-a18b4358b0e7",
+      "createdAt": "2026-05-04T22:14:38.365Z"
+    },
+    {
+      "token": "bbeed75f6409a0dd939dda70f176820feeac24e502376d0f",
+      "userId": "30606e22-34d1-4bf6-9eec-a18b4358b0e7",
+      "createdAt": "2026-05-04T23:10:49.142Z"
+    },
+    {
+      "token": "e77c0f3fa9b6158a12f88480ff4efe3bbe548f3973f8779d",
+      "userId": "30606e22-34d1-4bf6-9eec-a18b4358b0e7",
+      "createdAt": "2026-05-05T05:40:08.627Z"
+    },
+    {
+      "token": "b2643f446ebca87c09a3b063876eb4e1597665f9914e93ce",
+      "userId": "30606e22-34d1-4bf6-9eec-a18b4358b0e7",
+      "createdAt": "2026-05-05T05:41:01.455Z"
+    },
+    {
+      "token": "5d0e3d088af484fbf74dba8980f435c04df33edceb300cb6",
+      "userId": "30606e22-34d1-4bf6-9eec-a18b4358b0e7",
+      "createdAt": "2026-05-05T05:41:29.051Z"
+    },
+    {
+      "token": "84eb72e5b6aaa454776ddc1b6abafe9f9cf3165bd2e3091f",
+      "userId": "2690936c-715b-4f51-88a4-dec654ecf1c5",
+      "createdAt": "2026-05-05T05:46:27.390Z"
+    },
+    {
+      "token": "796fbc6f09c724c66e0bb74d66ed8ce2a732fe6c3a06e955",
+      "userId": "2690936c-715b-4f51-88a4-dec654ecf1c5",
+      "createdAt": "2026-05-05T05:49:46.883Z"
+    },
+    {
+      "token": "457d8fe8037d468d808726c4874fa32dbd5ae55a6e577fba",
+      "userId": "30606e22-34d1-4bf6-9eec-a18b4358b0e7",
+      "createdAt": "2026-05-05T05:52:01.975Z"
+    },
+    {
+      "token": "99f6d88df42f53c91f21833063c18e90625c5239d50bce00",
+      "userId": "30606e22-34d1-4bf6-9eec-a18b4358b0e7",
+      "createdAt": "2026-05-05T07:42:19.091Z"
+    },
+    {
+      "token": "3c08a9c7b08530e8c9fe31d9bdf3a20b5e68842309772922",
+      "userId": "30606e22-34d1-4bf6-9eec-a18b4358b0e7",
+      "createdAt": "2026-05-05T08:20:21.828Z"
+    },
+    {
+      "token": "96274908715a7cb54244a45e7b8711dd4f2432ca7808f6b3",
+      "userId": "30606e22-34d1-4bf6-9eec-a18b4358b0e7",
+      "createdAt": "2026-05-05T08:41:29.363Z"
+    },
+    {
+      "token": "98f6b69dabc3dbf8f1e0e1e9b166b6fde2be3a4baa1d2478",
+      "userId": "3551ccb3-0d96-4603-a9b7-b4a96c16fcb9",
+      "createdAt": "2026-05-05T08:42:57.765Z"
+    },
+    {
+      "token": "4eb42feba072d607da09ca37d84d89462e239f3a32b31e9f",
+      "userId": "30606e22-34d1-4bf6-9eec-a18b4358b0e7",
+      "createdAt": "2026-05-05T09:00:42.313Z"
+    },
+    {
+      "token": "cd410517330be664f322771a658e44a4e42a7e2cc23cf94e",
+      "userId": "30606e22-34d1-4bf6-9eec-a18b4358b0e7",
+      "createdAt": "2026-05-05T09:16:47.311Z"
+    },
+    {
+      "token": "b2d68f744b021fe443266a7de61f26460735e311c32a21c0",
+      "userId": "30606e22-34d1-4bf6-9eec-a18b4358b0e7",
+      "createdAt": "2026-05-05T09:29:37.148Z"
+    },
+    {
+      "token": "4597afbd5e1ed4f76c630d5f04337e07cdb2d3102c206ea8",
+      "userId": "3551ccb3-0d96-4603-a9b7-b4a96c16fcb9",
+      "createdAt": "2026-05-05T09:29:45.785Z"
+    },
+    {
+      "token": "759da37ece0b6bc2b6b99c74d78fc2158de0a74adea7f212",
+      "userId": "30606e22-34d1-4bf6-9eec-a18b4358b0e7",
+      "createdAt": "2026-05-05T09:37:06.949Z"
+    },
+    {
+      "token": "033569caf3e4db4c9a67a5bfa157819138892163ec21ee90",
+      "userId": "30606e22-34d1-4bf6-9eec-a18b4358b0e7",
+      "createdAt": "2026-05-05T09:37:06.951Z"
+    },
+    {
+      "token": "dc5bfafb617ea31f7eede2e6ee04c83a308781d023ac4664",
+      "userId": "30606e22-34d1-4bf6-9eec-a18b4358b0e7",
+      "createdAt": "2026-05-05T09:46:44.758Z"
+    },
+    {
+      "token": "83fde765b9f4e1b780c09bca5ea1c956bd83b6d24c0f473a",
+      "userId": "30606e22-34d1-4bf6-9eec-a18b4358b0e7",
+      "createdAt": "2026-05-06T06:29:50.182Z"
+    },
+    {
+      "token": "470982bf952b23511b4e064fbfdbcbebabee37590fddb520",
+      "userId": "30606e22-34d1-4bf6-9eec-a18b4358b0e7",
+      "createdAt": "2026-05-06T06:33:48.713Z"
+    },
+    {
+      "token": "37ff81a80305df335cec1cf14163fd47f946cd4297a6f813",
+      "userId": "30606e22-34d1-4bf6-9eec-a18b4358b0e7",
+      "createdAt": "2026-05-11T07:56:33.142Z"
+    },
+    {
+      "token": "a98c1d221ea2b68930ddd95dcc6c9e96189a1401cd23d6c7",
+      "userId": "30606e22-34d1-4bf6-9eec-a18b4358b0e7",
+      "createdAt": "2026-05-11T08:29:28.589Z"
+    }
+  ]
+}
